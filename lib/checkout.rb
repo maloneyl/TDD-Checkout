@@ -26,7 +26,7 @@ class Checkout
     # @rules.inject(0) do |sum, rule|
     #   discounted_amount_or_nothing = rule.apply(@items)
     #   if discounted_amount_or_nothing.respond_to?(:+) # duck typing
-    #     sum + discounted_or_nothing
+    #     sum + discounted_amount_or_nothing
     #   else
     #     sum
     #   end

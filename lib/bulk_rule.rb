@@ -13,7 +13,7 @@ class BulkRule
     if bulk_items.length >= @quantity
       bulk_items.each { |item| item.price_in_pence = @price_in_pence }
     end
-    # nil
+    # nil # if going the discounted_amount_or_nothing route
     0
   end
 
